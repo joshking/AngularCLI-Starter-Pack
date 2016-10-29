@@ -4,7 +4,15 @@ Angular 2 CLI with Bootstrap 4 starter project.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
-Clone this repo, then type 'npm install.' Be sure you have all the Dependencies of the CLI before attempting. 
+Clone this repo, then type 'npm install.' Be sure you have all the Dependencies of the CLI before attempting. This is a bare-bones project. If successfully installed, which isn't always a guarantee right now with Beta and Alpha software, you will see a few blank pages. I'm using the basic Angular router for navigation, which should be working. 
+
+The project uses Gulp for sass compilation, which is just a preference. It's not needed, and you can rely on the CLI to handle the preprocessing. I just like the workflow a little better. On that note, I changed the name from the out of the box "styles.css" to "main.css" - if you don't want to use gulp, just use the base styles.css that the CLI creates in the root of src.
+
+## Dependencies
+Both the CLI and generated project have dependencies that require Node 4 or higher, together with NPM 3 or higher.
+To install Bootstrap: 4 'npm install bootstrap'
+
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -17,13 +25,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Dependencies
-Both the CLI and generated project have dependencies that require Node 4 or higher, together with NPM 3 or higher.
-- Bootstrap 4 'npm install bootstrap'
-- 
-
-## Gulp
-Gulp is not needed, but if you want to use Bootstrap and Sass, it seems like the easy way to go about it. If you want to use Gulp: 'npm install -g gulp'
 
 
 ## Running unit tests
